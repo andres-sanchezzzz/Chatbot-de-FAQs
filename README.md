@@ -15,10 +15,8 @@ Retriever (KB + RapidFuzz)
   ↓
 Guardrails (alcance, tono, seguridad)
   ↓
-┌───────────────┬──────────────────┐
-│ KB (FAQs)     │ Web Search (Google CSE)
-│               │ Dominios oficiales
-└───────────────┴──────────────────┘
+KB (FAQs) y Web Search (Google CSE) Dominios oficiales
+
   ↓
 LLM (solo reformulación / resumen)
   ↓
@@ -109,8 +107,8 @@ En archivo `.env` en la raíz del proyecto:
 ## Ejecución del Proyecto
 
 ### Instalar dependencias
-bash
-pip install -r requirements.txt
+
+```pip install -r requirements.txt```
 
 ### Ejecutar la aplicacion
 
