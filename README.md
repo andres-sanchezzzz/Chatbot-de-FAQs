@@ -7,20 +7,7 @@ El objetivo es demostrar una arquitectura GenAI gobernada, evitando alucinacione
 
 ## Arquitectura General
 
-Usuario
-  ↓
-Interfaz (Streamlit)
-  ↓
-Retriever (KB + RapidFuzz)
-  ↓
-Guardrails (alcance, tono, seguridad)
-  ↓
-KB (FAQs) y Web Search (Google CSE) Dominios oficiales
-
-  ↓
-LLM (solo reformulación / resumen)
-  ↓
-Respuesta + Fuente
+Usuario -> Interfaz (Streamlit) -> Retriever (KB + RapidFuzz) -> Guardrails (alcance, tono, seguridad) -> KB (FAQs) y Web Search (Google CSE) Dominios oficiales -> LLM (solo reformulación / resumen) -> Respuesta + Fuente
 
 ## Base de Conocimiento (KB)
 
